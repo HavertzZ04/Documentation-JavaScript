@@ -1,2 +1,2 @@
-const person = "woman";
-console.log(person.repeat(5));
+let greet = "Hello good morning people"
+console.log(greet.charAt(8))
