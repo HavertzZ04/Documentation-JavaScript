@@ -1,2 +1,2 @@
 let greet = "Hello good morning people"
-console.log(greet.endsWith("e"));
+console.log(greet.replace("morning", "night"));
