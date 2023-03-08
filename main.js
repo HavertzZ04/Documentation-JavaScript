@@ -1,2 +1,2 @@
-let fullName = "Ferney Lopez"
-console.log(fullName.toLowerCase())
+let newFullName = "Ferney Lopez"
+console.log(newFullName.toUpperCase())
