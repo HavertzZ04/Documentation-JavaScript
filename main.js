@@ -1,2 +1,2 @@
 let greet = "Hello good morning people"
-console.log(greet.charAt(8))
+console.log(greet.charCodeAt("o"))
