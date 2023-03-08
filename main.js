@@ -1,2 +1,4 @@
 let greet = "Hello good morning people"
-console.log(greet.charCodeAt("o"))
+let student = "Johan"
+let message = student.concat(` ${greet}`)
+console.log(message)
