@@ -1,2 +1,2 @@
 let greet = "Hello good morning people"
-console.log(greet.includes('z'));
+console.log(greet.startsWith("G"));
