@@ -1,2 +1,2 @@
-let newFullName = "Ferney Lopez"
-console.log(newFullName.toUpperCase())
+let oneText = "     Hello World     "
+console.log(oneText.trim())
