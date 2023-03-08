@@ -1,2 +1,2 @@
-let greet3 = greet.substring(5,12);
-console.log(greet3);
+const person = "woman";
+console.log(person.repeat(5));
