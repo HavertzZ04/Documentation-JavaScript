@@ -1,2 +1,2 @@
 let greet = "Hello good morning people"
-console.log(greet.startsWith("G"));
+console.log(greet.endsWith("e"));
