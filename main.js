@@ -1,2 +1,2 @@
-let greet = "Hello good morning people"
-console.log(greet.replace("morning", "night"));
+let greet2 = greet.slice(5,12);
+console.log(greet2);
