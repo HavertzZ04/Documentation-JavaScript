@@ -1,4 +1,4 @@
 let x = 5;
 let y = 2;
 
-console.log(x / y); // Returns 2.5
+console.log(x % y); // Returns 1
