@@ -1,5 +1,4 @@
-let x = 5;
-let y = 2;
+let a = 10;
+let b = 3;
 
-y--
-console.log(y); //Returns 1
+console.log(a**b) //Returns 1000
