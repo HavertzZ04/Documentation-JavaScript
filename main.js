@@ -1,11 +1,6 @@
-console.log(Math.ceil(.95));
-// Expected output: 1
+console.log( 1 || 0 ); // 1 (1 is truthy)
 
-console.log(Math.ceil(4));
-// Expected output: 4
+console.log( null || 1 ); // 1 (1 is the first truthy value)
+console.log( null || 0 || 1 ); // 1 (the first truthy value)
 
-console.log(Math.ceil(7.004));
-// Expected output: 8
-
-console.log(Math.ceil(-7.004));
-// Expected output: -7
+console.log( undefined || null || 0 ); // 0 (all falsy, returns the last value)
