@@ -1,4 +1,4 @@
 let boys = 12;
 let girls = 8;
 
-console.log(boys >= girls); // Returns True
+console.log(girls <= boys); //Returns True
