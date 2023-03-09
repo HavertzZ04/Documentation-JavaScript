@@ -1,12 +1,12 @@
-function getBaseLog(x, y) {
-    return Math.log(y) / Math.log(x);
-  }
-  
-  // 2 x 2 x 2 = 8
-  console.log(getBaseLog(2, 8));
-  // Expected output: 3
-  
-  // 5 x 5 x 5 x 5 = 625
-  console.log(getBaseLog(5, 625));
-  // Expected output: 4
+console.log(Math.max(1, 3, 2));
+// Expected output: 3
+
+console.log(Math.max(-1, -3, -2));
+// Expected output: -1
+
+const array1 = [1, 3, 2];
+
+console.log(Math.max(...array1));
+// Expected output: 3
+
   
