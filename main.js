@@ -1,14 +1,13 @@
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
+function calcHypotenuse(a, b) {
+    return (Math.sqrt((a * a) + (b * b)));
   }
   
-  console.log(getRandomInt(3));
-  // Expected output: 0, 1 or 2
+  console.log(calcHypotenuse(3, 4));
+  // Expected output: 5
   
-  console.log(getRandomInt(1));
+  console.log(calcHypotenuse(5, 12));
+  // Expected output: 13
+  
+  console.log(calcHypotenuse(0, 0));
   // Expected output: 0
-  
-  console.log(Math.random());
-  // Expected output: a number from 0 to <1
-  
   
