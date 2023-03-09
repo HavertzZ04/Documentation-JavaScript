@@ -1,13 +1,9 @@
-function calcHypotenuse(a, b) {
-    return (Math.sqrt((a * a) + (b * b)));
-  }
-  
-  console.log(calcHypotenuse(3, 4));
-  // Expected output: 5
-  
-  console.log(calcHypotenuse(5, 12));
-  // Expected output: 13
-  
-  console.log(calcHypotenuse(0, 0));
-  // Expected output: 0
+console.log(Math.round(0.9));
+// Expected output: 1
+
+console.log(Math.round(5.95), Math.round(5.5), Math.round(5.05));
+// Expected output: 6 6 5
+
+console.log(Math.round(-5.05), Math.round(-5.5), Math.round(-5.95));
+// Expected output: -5 -5 -6
   
