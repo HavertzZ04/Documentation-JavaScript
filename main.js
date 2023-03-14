@@ -1,3 +1,5 @@
-let greet3 = new Function("return 'Hola");
+const greet4 = function(){
+    return "hi"
+}
 
-greet3();
+greet4()
