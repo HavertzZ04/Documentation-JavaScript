@@ -1,4 +1,7 @@
-// Object.fromEntries()
-const entries = [['a', 2], ['b', 3], ['c', 4]];
-const obj = Object.fromEntries(entries);
-console.log(obj);
+const form = document.querySelector('form');
+const formData = new FormData(form);
+
+fetch('/api/submit', {
+    method: 'POST',
+    body: formData
+  })
