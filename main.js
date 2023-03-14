@@ -1,12 +1,11 @@
-const incr = (function () {
-    let num = 0;
-    return function () {
-      num++;
-      return num;
-    };
-  })();
+let a = function () {
+    return "Tradicional one";
+};
   
-  typeof incr; // 'function'
-  incr(); // 1
-  incr(); // 2
-  incr(); // 3
+let b = () => {
+    return "Arrow one.";
+};
+
+const c = () => "Arrow one"; // 0 parameter: return "Arrow one"
+const d = (e) => e + 1; // 1 parameter: Return the value of  e + 1
+const e = (a, b) => a + b; // 2 parameter: Return the value of a + b
