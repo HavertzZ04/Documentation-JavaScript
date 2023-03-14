@@ -1,4 +1,5 @@
-function greet(){
-    alert("Hello World");
+let greet2 = function greetF (){
+    alert("Hello people");
 }
-greet();
+
+greet2();
