@@ -1,11 +1,4 @@
-father = {
-    a: function () {
-      console.log(this);
-    },
-    b: () => {
-      console.log(this);
-    },
-  };
-  
-  father.a(); // father
-  father.b(); // Window
+// Object.fromEntries()
+const entries = [['a', 2], ['b', 3], ['c', 4]];
+const obj = Object.fromEntries(entries);
+console.log(obj);
