@@ -1,5 +1,3 @@
-let greet2 = function greetF (){
-    alert("Hello people");
-}
+let greet3 = new Function("return 'Hola");
 
-greet2();
+greet3();
