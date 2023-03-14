@@ -1,5 +1,9 @@
-const greet4 = function(){
-    return "hi"
+let fB = function(){
+    alert("This is the function B");
 }
 
-greet4()
+let fA= function(callback){
+    callback();
+} 
+
+fA(fB);
